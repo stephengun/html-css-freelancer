@@ -1,23 +1,26 @@
 /* ===============================
-   Colour Palette:
-   ---------------
-   Dark Grey/Gris Foncé:	                         #465065
-   Light Grey/Gris Claire:			                   #9aa0ab
-   Very Light Grey/Gris Très Claire (footer):       #b9c0c6
-   Red/Rouge:			                               #f0454c
-   Hover on icons, button and "More ->"             #000
-   =============================== */
+Colour Palette:
+---------------
+Dark Grey/Gris Foncé:	                         #465065
+Light Grey/Gris Claire:			                   #9aa0ab
+Very Light Grey/Gris Très Claire (footer):       #b9c0c6
+Red/Rouge:			                               #f0454c
+Hover on icons, button and "More ->"             #000
+=============================== */
 
 /* General */
 
 html {
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *:before, *:after {
-   box-sizing: inherit;
+  box-sizing: inherit;
 }
 
+header{
+  height:1000px;
+}
 .topheader{
   background-color:#f0454c;
   width: 160px;
@@ -34,15 +37,28 @@ img{
   z-index: -1;
 }
 
-ul{
+nav{
   list-style-type: none;
   margin-top: -95px;
-    margin-left: 600px;
-    margin-right: 250px;
-    padding-top:10px;
-    display:flex;
-    justify-content: space-between;
-    color:  #465065;
+  margin-left: 650px;
+  margin-right: 210px;
+  padding-top:10px;
+  display:flex;
+  justify-content: space-between;
+  color:  #465065;
+}
+
+fa fa-twitter{
+  margin-top: -95px;
+}
+
+.fa fa-facebook{
+  padding-top:10px
+}
+
+a{
+  text-decoration: none;
+  color: #465065;
 }
 
 .main{
@@ -70,4 +86,33 @@ ul{
   text-align: center;
   border-radius: 10px;
   font-size: 15px;
+}
+
+.content1{
+  display: flex;
+  display: row;
+  padding-left: 215px;
+
+}
+.content1 h3{
+  font-size: 30px;
+  color: #465065;
+}
+
+.content1 section{
+  padding: 20px;
+}
+
+.content1 h4{
+  color: red;
+}
+
+.content2{
+margin-top: px;
+margin-left: 200px;
+}
+
+.content3{
+margin-top: px;
+margin-left: 250px;
 }
