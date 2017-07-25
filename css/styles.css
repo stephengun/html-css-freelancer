@@ -17,3 +17,57 @@ html {
 *, *:before, *:after {
    box-sizing: inherit;
 }
+
+.topheader{
+  background-color:#f0454c;
+  width: 160px;
+  color:white;
+  padding: 25px;
+  margin-top:-7px;
+  margin-left: 210px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+img{
+  position: absolute;
+  z-index: -1;
+}
+
+ul{
+  list-style-type: none;
+  margin-top: -95px;
+    margin-left: 600px;
+    margin-right: 250px;
+    padding-top:10px;
+    display:flex;
+    justify-content: space-between;
+    color:  #465065;
+}
+
+.main{
+  text-align: left;
+  margin-top: 280px;
+  margin-left: 210px;
+  margin-bottom: -10px;
+  color:  #465065;
+  font-size: 50px;
+}
+
+.main1{
+  text-align: left;
+  margin-left: 210px;
+  color:  #465065;
+  font-size: 20px;
+}
+
+.click{
+  background-color:#f0454c;
+  width: 160px;
+  color:white;
+  padding: 25px;
+  margin-left: 210px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 15px;
+}
