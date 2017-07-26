@@ -91,7 +91,7 @@ a{
 .content1{
   display: flex;
   display: row;
-  padding-left: 215px;
+  padding-left: 190px;
 
 }
 .content1 h3{
@@ -108,11 +108,68 @@ a{
 }
 
 .content2{
-margin-top: px;
-margin-left: 200px;
+
+margin-left: 210px;
 }
 
 .content3{
-margin-top: px;
-margin-left: 250px;
+margin-top: 70px;
+margin-left: 700px;
+}
+
+.content3 h3{
+  letter-spacing: -2px;
+  font-size: 45px;
+  color: #465065;
+
+}
+
+.content3 h4{
+  color: red;
+}
+
+.content3 h5{
+  font-size: 17px;
+}
+
+.content4{
+margin-top: 210px;
+margin-left: 210px;
+}
+
+.content4 h1{
+  font-size: 40px;
+  color: #465065;
+}
+
+.content4 h5{
+  font-size: 17px;
+}
+
+.content5 img{
+ border-radius:80px;
+ height:100px;
+ width:100px;
+
+}
+
+.content5{
+  margin-left: 210px;
+  display: flex;
+  display: row;
+}
+
+.three h3{
+ font-size:20px;
+}
+
+.three h4{
+ font-size:17px;
+ color:#f44242 ;
+}
+
+.three p{
+ font-size:15px;
+ color:grey;
+ line-height:-5;
 }
