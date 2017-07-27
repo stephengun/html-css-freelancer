@@ -62,14 +62,21 @@ a{
 }
 
 .main{
+  position: relative;
   text-align: left;
-  margin-top: 280px;
+  margin-top: 260px;
   margin-left: 210px;
   margin-bottom: -10px;
   color:  #465065;
   font-size: 50px;
+  padding-bottom: 0px;
+  width:500px;
+
 }
 
+h1{
+  margin:0px;
+}
 .main1{
   text-align: left;
   margin-left: 210px;
