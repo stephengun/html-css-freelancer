@@ -21,6 +21,7 @@ html {
 header{
   height:1000px;
 }
+
 .topheader{
   background-color:#f0454c;
   width: 160px;
@@ -106,23 +107,23 @@ h1{
 .content1{
   display: flex;
   display: row;
-  padding-left: 110px;
+  padding-left: 190px;
 
-}
-
-.content1::before{
-  display:block;
- content:"";
- width:65px;
- height:7px;
- background-color:#f44242 ;
- margin-top: 25px;
- margin-left: 20px;
 }
 
 .content1 h3{
   font-size: 30px;
   color: #465065;
+}
+
+.content1 h3::before{
+  display:block;
+ content:"";
+ width:65px;
+ height:7px;
+ background-color:#f44242;
+  margin-left: 1px;
+  margin-bottom: 10px;
 }
 
 .content1 section{
@@ -148,18 +149,33 @@ margin-left: 700px;
   font-size: 45px;
   color: #465065;
 
+
+}
+
+.content3 h3::before{
+  display:block;
+ content:"";
+ width:65px;
+ height:7px;
+ background-color:#f44242;
+ margin-bottom: 10px;
 }
 
 .content3 h4{
   color: red;
 }
 
+.content3 p{
+  color: #465065;
+}
+
 .content3 h5{
   font-size: 17px;
+  color: #465065;
 }
 
 .content4{
-margin-top: 210px;
+margin-top: 150px;
 margin-left: 210px;
 }
 
@@ -168,8 +184,18 @@ margin-left: 210px;
   color: #465065;
 }
 
+.content4 h1::before{
+  display:block;
+ content:"";
+ width:65px;
+ height:7px;
+ background-color:#f44242;
+ margin-bottom: 10px;
+}
+
 .content4 h5{
   font-size: 17px;
+  color:grey;
 }
 
 .content5 img{
@@ -180,9 +206,11 @@ margin-left: 210px;
 }
 
 .content5{
-  margin-left: 210px;
+  margin-left: 150px;
+  margin-right: 150px;
   display: flex;
   display: row;
+  justify-content: space-around;
 }
 
 .three h3{
@@ -202,14 +230,24 @@ margin-left: 210px;
 
 .texxt{
   padding-left: 110px;
+  color: #465065;
 }
 
 .fin{
-  padding-left: 1100px;
+  padding-left: 1000px;
   color: red;
+  margin-bottom: 50px;
+}
+
+.icons{
+  text-align: left;
 }
 
 footer{
   text-align: right;
   padding-right: 20px;
+  border-top: 1px solid grey;
+  padding: 10px;
+  margin-left:210px;
+  margin-right: 210px;
 }
