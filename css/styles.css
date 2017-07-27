@@ -74,6 +74,14 @@ a{
 
 }
 
+.main::before{
+  display:block;
+ content:"";
+ width:65px;
+ height:7px;
+ background-color:#f44242 ;
+}
+
 h1{
   margin:0px;
 }
@@ -98,9 +106,20 @@ h1{
 .content1{
   display: flex;
   display: row;
-  padding-left: 190px;
+  padding-left: 110px;
 
 }
+
+.content1::before{
+  display:block;
+ content:"";
+ width:65px;
+ height:7px;
+ background-color:#f44242 ;
+ margin-top: 25px;
+ margin-left: 20px;
+}
+
 .content1 h3{
   font-size: 30px;
   color: #465065;

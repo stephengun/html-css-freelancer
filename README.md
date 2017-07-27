@@ -29,18 +29,3 @@ Votre référence est le ﬁchier screenshot.png et screenshot.jpg.
 # Rendu
 
 Travaillez d'abord sur la partie html.
-
-
-<section class="content5"><img src="joey.jpg" alt="picture3"></section>
-
-		<section class="content6"><section><h2>JOEY</h2>
-		<h3>web developer</h3>
-		<p>Coffee lover. Always<br> on bikte. Iphone fan.</p></section>
-
-		<section><h2>MATT</h2>
-		<h3>web designer</h3>
-		<p>MTB biker. Photoshop<br>master. Loving father.</p></section>
-
-		<section><h2>MIKE</h2>
-		<h3>copywriter</h3>
-		<p>Drummer. Soup lover. Beer drinker. cyclist.</p></section></section>
