@@ -107,7 +107,9 @@ h1{
 .content1{
   display: flex;
   display: row;
-  padding-left: 190px;
+  justify-content: space-around;
+  width: 940px;
+  margin-left: 180px;
 
 }
 
@@ -127,7 +129,7 @@ h1{
 }
 
 .content1 section{
-  padding: 20px;
+  padding: 30px;
 }
 
 .content1 h4{
